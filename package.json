@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/JuanLengyel/status-card-react/issues"
   },
-  "homepage": "https://github.com/JuanLengyel/status-card-react#readme"
+  "homepage": "https://github.com/JuanLengyel/status-card-react#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1"
+  }
 }
