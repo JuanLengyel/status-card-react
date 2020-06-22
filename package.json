@@ -22,7 +22,8 @@
   "homepage": "https://github.com/JuanLengyel/status-card-react#readme",
   "dependencies": {
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-hot-loader": "^4.12.21"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.3",
