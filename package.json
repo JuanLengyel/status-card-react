@@ -20,7 +20,10 @@
     "url": "https://github.com/JuanLengyel/status-card-react/issues"
   },
   "homepage": "https://github.com/JuanLengyel/status-card-react#readme",
-  "dependencies": {},
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
   "devDependencies": {
     "@babel/cli": "^7.10.3",
     "@babel/core": "^7.10.3",
