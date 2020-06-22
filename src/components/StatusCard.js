@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import StatusCard from './components/StatusCard'
 import { hot } from 'react-hot-loader';
+import Comment from './Comment'
 
-class App extends Component {
+class StatusCard extends Component {
   render() {
     return (
       <div>
-        <StatusCard />
+        <Comment />
       </div>
     );
   }
 }
 
-export default hot(module)(App);
+export default hot(module)(StatusCard);

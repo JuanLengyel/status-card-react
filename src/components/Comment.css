@@ -1,0 +1,12 @@
+.comment {
+  background-color: rgb(242, 242, 242);
+  padding: 1rem 1rem;
+  color: rgb(150, 150, 150);
+  font-family: monospace;
+}
+
+textarea {
+  width: 100%;
+  resize: vertical;
+  border-radius: 4px;
+}
