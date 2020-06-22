@@ -3,6 +3,8 @@
   padding: 1rem 1rem;
   color: rgb(150, 150, 150);
   font-family: monospace;
+
+  border-radius: 0px 0px 8px 8px;
 }
 
 textarea {
