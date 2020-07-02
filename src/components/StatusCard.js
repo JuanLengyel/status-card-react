@@ -16,7 +16,7 @@ class StatusCard extends Component {
             </div>
             <div className='statusTime'>Posted 10 min ago</div>
           </div>
-          <p>This is my status</p>
+          <p>Autem sed in. Nemo maiores dignissimos omnis doloribus alias similique qui praesentium id. Architecto dicta voluptatem eum eaque voluptas aspernatur.</p>
         <Like />
         </div>
         <Comment />
