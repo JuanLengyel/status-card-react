@@ -5,7 +5,8 @@ class Comment extends Component {
   constructor() {
     super();
     this.state = {
-      currentCommentChars: 0
+        currentCommentChars: 0
+      , value: ''
     };
     this.handleTextAreaChange = this.handleTextAreaChange.bind(this);
   }
@@ -13,16 +14,25 @@ class Comment extends Component {
   render() {
     return (
       <div className='comment'>
-        <textarea placeholder='Write here...' onChange={this.handleTextAreaChange}></textarea>
+        <textarea placeholder='Write here...' onChange={this.handleTextAreaChange} value={this.state.value}></textarea>
         <small>{this.props.maxLetters - this.state.currentCommentChars} Remaining</small>
       </div>
     );
   }
 
   handleTextAreaChange(event) {
-    this.setState({
-      currentCommentChars: event.target.value.length
-    });
+    if (this.props.maxLetters - event.target.value.length + 1) {
+      this.setState({
+          currentCommentChars: event.target.value.length
+        , value: event.target.value
+      });
+    }
+    else {
+      this.setState(prevState => ({
+          currentCommentChars: prevState.currentCommentChars
+        , value: prevState.value
+      }));
+    }
   }
 }
 
