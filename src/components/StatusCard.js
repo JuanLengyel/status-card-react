@@ -19,7 +19,7 @@ class StatusCard extends Component {
           <p>Autem sed in. Nemo maiores dignissimos omnis doloribus alias similique qui praesentium id. Architecto dicta voluptatem eum eaque voluptas aspernatur.</p>
         <Like />
         </div>
-        <Comment />
+        <Comment maxLetters={120} />
       </div>
     );
   }
